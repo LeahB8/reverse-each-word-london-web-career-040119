@@ -1,6 +1,9 @@
-string
+string = "Hello, how are you?"
 
-def reverse_each_word(string)
-  string.split(" ")
-  string.reverse_each {|word| print word, " "}
+string.split(" ")
+
+
+
+def reverse_each_word(array)
+  array.reverse_each {|word| print word, " "}
 end
