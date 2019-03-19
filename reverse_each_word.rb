@@ -1,6 +1,6 @@
 string = "Hello, how are you?"
 
-string.split(" ")
+string.split
 
 
 
