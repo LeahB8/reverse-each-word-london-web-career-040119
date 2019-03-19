@@ -1,12 +1,19 @@
 string = "Hello, how are you?"
 
-string.split
+  original_array = string.split(" ")
+  return_array = []
+  original_array.each do |string|
+    return_array << string.reverse
+  end
 
 
 
 def reverse_each_word(array)
   array.reverse.each {|word| print word}
 end
+
+
+
 
 def reverse_each_word_with_each(string)
 
